@@ -50,10 +50,13 @@ Below are screenshots of the implemented screens based on the provided Figma des
 
 Example usage in markdown:
 
-```md
-![Checkout Screen](./public/checkout.png)
-![Confirmation Screen](./public/confirmation.png)
-```
+## Screenshots
+
+<p align="center">
+  <img src="public/checkout.png" alt="Checkout Screen" width="45%" />
+  <img src="public/confirmation.png" alt="Confirmation Screen" width="45%" />
+</p>
+
 
 ---
 
@@ -62,7 +65,7 @@ Example usage in markdown:
 The project is deployed and accessible at:
 
 **Live URL:**
-[https://your-live-demo-link.vercel.app](https://your-live-demo-link.vercel.app)
+[https://novacrust-self.vercel.app/](https://novacrust-self.vercel.app/)
 
 ---
 
