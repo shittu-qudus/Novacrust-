@@ -153,5 +153,4 @@ Frontend Developer (React / Next.js)
 ## License
 
 This project was created solely for evaluation and assessment purposes.
-# Novacrust-
-# Novacrust-
+# Novacrust
