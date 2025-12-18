@@ -1,40 +1,154 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Crypto Checkout Frontend Assessment
+
+## Overview
+
+This project is a frontend implementation of a **crypto checkout flow**, similar in concept to Stripe Checkout, built as part of a take-home assessment. The goal is to demonstrate the ability to translate Figma designs into clean, responsive, and production-ready frontend code using **React / Next.js**.
+
+The implementation focuses on UI accuracy, component organization, form state management, responsiveness, and code quality. Backend integration was intentionally excluded and mock data is used where applicable.
+
+---
+
+## Project Scope
+
+* Two screens were selected from the provided Figma design and implemented.
+* The selected screens best demonstrate layout composition, form handling, and interaction flow.
+* Emphasis was placed on frontend best practices rather than backend complexity.
+
+---
+
+## Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **Formik** – form state management
+* **Yup** – schema-based form validation
+
+---
+
+## Features
+
+* Responsive design (mobile and desktop)
+* Page-based routing using Next.js
+* Clean and maintainable code structure
+* Controlled forms with validation
+* Logical button and UI interactions
+* Accessible form inputs and semantic HTML
+
+---
+
+## Screenshots
+
+Below are screenshots of the implemented screens based on the provided Figma design.
+
+```
+/public/
+  ├─ checkout.png
+  └─ confirmation.png
+```
+
+Example usage in markdown:
+
+```md
+![Checkout Screen](./public/checkout.png)
+![Confirmation Screen](./public/confirmation.png)
+```
+
+---
+
+## Live Demo
+
+The project is deployed and accessible at:
+
+**Live URL:**
+[https://your-live-demo-link.vercel.app](https://your-live-demo-link.vercel.app)
+
+---
+
+## Form Handling and Validation
+
+All form logic in this project is handled using **Formik**.
+Validation rules are defined using **Yup**, ensuring:
+
+* Required fields are enforced
+* Input values follow expected formats
+* Validation errors are displayed clearly and consistently
+
+This approach keeps form logic declarative, predictable, and scalable.
+
+---
+
+## File Structure
+
+The project follows the structure below, exactly as implemented:
+
+```
+novacrust/
+├─ src/
+│  ├─ pages/
+│  │  ├─ api/
+│  │  │  └─ hello.ts
+│  │  ├─ _app.tsx
+│  │  ├─ _document.tsx
+│  │  ├─ acctConfirmation.tsx
+│  │  └─ index.tsx
+│  ├─ styles/
+│  │  └─ globals.css
+├─ public/
+├─ next.config.ts
+├─ next-env.d.ts
+├─ tsconfig.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ eslint.config.mjs
+├─ package.json
+└─ README.md
+```
+
+The **Pages Router** approach was used to align with the existing Next.js setup.
+
+---
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Start the development server:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm run dev
+   ```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Open in the browser:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+   ```
+   http://localhost:3000
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
+* This is a frontend-only implementation.
+* No real payment processing or API integration is included.
+* The focus is on UI, responsiveness, form handling, and code clarity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Shittu Qudus Adekunle
+Frontend Developer (React / Next.js)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## License
+
+This project was created solely for evaluation and assessment purposes.
+# Novacrust-
+# Novacrust-
